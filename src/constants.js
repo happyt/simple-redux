@@ -1,0 +1,7 @@
+const constants = {
+	ITEMS_HAS_ERRORED: "ITEMS_HAS_ERRORED",
+	ITEMS_IS_LOADING: "ITEMS_IS_LOADING",
+	ITEMS_FETCH_SUCCESS: "ITEMS_FETCH_SUCCESS"
+}
+
+export default constants
