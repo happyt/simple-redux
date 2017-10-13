@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 
-export default class Single extends Component {
-  render() {
-    return (
-      <div className="Single">
-        <p className="SingleText">
-          Single image
-        </p>
-      </div>
-    );
-  }
-}
+const Single = ({match}) => (
+  <div className="Single">
+    <p className="SingleText">
+      Single image {match.params.id}
+    </p>
+  </div>
+)
+ export default Single;
